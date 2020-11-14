@@ -1,5 +1,5 @@
 
-const USERS_REST_API_URL = 'http://localhost:8080/maro-0.0.3/persons';
+const USERS_REST_API_URL = 'http://192.168.1.102:8080/maro-0.0.3/persons';
 
 class UserService {
 
