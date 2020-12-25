@@ -1,12 +1,12 @@
 import React from 'react';
-import UserService from '../services/UserService';
+// import UserService from '../services/UserService';
 
 class Delete extends React.Component {
    clickHandler() {
-      var id = document.getElementById("id").value;
-      UserService.deleteUser(id).catch(e => {
-         console.log(e);
-      });  
+      // var id = document.getElementById("id").value;
+      // UserService.deleteUser(id).catch(e => {
+      //    console.log(e);
+      // });  
   }
    render() {
       return (

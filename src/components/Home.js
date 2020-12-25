@@ -1,5 +1,5 @@
 import React from 'react';
-import UserService from '../services/UserService';
+// import UserService from '../services/UserService';
 
 class Home extends React.Component {
     constructor(props){
@@ -9,9 +9,27 @@ class Home extends React.Component {
         }
     }
     componentDidMount() {
-        UserService.getUsers().then((response) => {
-            this.setState({ users: response})
-        });
+        const arr = [
+            {
+              "id": 1,
+              "name": "Daci",
+              "address": "Timisoara"
+            },
+            {
+              "id": 2,
+              "name": "Aranud",
+              "address": "Timisoara"
+            },
+            {
+              "id": 3,
+              "name": "Rony",
+              "address": "Timisoara"
+            }
+          ];
+          this.setState({ users: arr});
+        // UserService.getUsers().then((response) => {
+        //     this.setState({ users: response})
+        // });
     }
     render() {
         return (

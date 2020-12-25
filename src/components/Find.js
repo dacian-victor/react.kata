@@ -1,5 +1,5 @@
 import React from 'react';
-import UserService from '../services/UserService';
+// import UserService from '../services/UserService';
 
 class Find extends React.Component {
     constructor(props){
@@ -10,10 +10,10 @@ class Find extends React.Component {
         this.clickHandler = this.clickHandler.bind(this);
     }
     clickHandler() {
-        var id = document.getElementById("id").value;
-        UserService.getUser(id).then((response) => {
-            this.setState({ users: [response]});
-        });
+        // var id = document.getElementById("id").value;
+        // UserService.getUser(id).then((response) => {
+        //     this.setState({ users: [response]});
+        // });
     }
     render() {
         return (

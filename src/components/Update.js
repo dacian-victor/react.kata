@@ -1,13 +1,13 @@
 import React from 'react';
-import UserService from '../services/UserService';
+// import UserService from '../services/UserService';
  
 class Update extends React.Component {
    handleClick() {
-      var id = document.getElementById("id").value;
-      UserService.updateUser(id, {
-         "name": document.getElementById("name").value, 
-         "address": document.getElementById("address").value 
-      });
+      // var id = document.getElementById("id").value;
+      // UserService.updateUser(id, {
+      //    "name": document.getElementById("name").value, 
+      //    "address": document.getElementById("address").value 
+      // });
    }
    render() {
       return (

@@ -1,12 +1,12 @@
 import React from 'react';
-import UserService from '../services/UserService';
+// import UserService from '../services/UserService';
  
 class Create extends React.Component {
    handleClick() {
-      UserService.createUser({
-         "name": document.getElementById("name").value, 
-         "address": document.getElementById("address").value 
-      });
+      // UserService.createUser({
+      //    "name": document.getElementById("name").value, 
+      //    "address": document.getElementById("address").value 
+      // });
    }
    render() {
       return (
